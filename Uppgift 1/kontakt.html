@@ -1,0 +1,66 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <div id="navigation">
+                <ul>
+                    <li><a href="index.html">Hem</a></li>
+                    <li><a href="ommig.html">Om mig</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                    <!-- <li id="dropdown-btn">
+                        <a href="#">Dropdown</a>
+                        <ul id="dropdown-content">
+                            <li><a href="#">Link 1</a></li>
+                            <li><a href="#">Link 2</a></li>
+                            <li><a href="#">Link 3</a></
+                        </ul>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+
+
+        <div id="content">
+
+            <div id="main-content">
+                <h1>Kontakt</h1>
+                <form action="" method="POST">
+                    <label for="firstname">Förnamn <span class="required">*</span></label>
+                    <input type="text" placeholder="Förnamn" name="firstname" id="firstname" required
+                        pattern="^[a-zA-Z]+$">
+
+                    <label for="lastname">Efternamn <span class="required">*</span></label>
+                    <input type="text" placeholder="Efternamn" name="lastname" id="lastname" required>
+
+                    <label for="email">Email <span class="required">*</span></label>
+                    <input type="email" placeholder="E-post" name="email" id="email" required>
+
+
+                    <label for="comment">Meddelande</label>
+                    <textarea name="comment" id="comment" rows="10"
+                        placeholder="Skriv ditt meddelande här"></textarea>
+
+
+                    <input type="checkbox" name="terms"required>
+                    <label for="terms">Vänligen läs igenom våra <a href="terms.html" target="_blank">användarvillkor</a> innan du skickar meddelandet</label>
+
+                    <input type="submit" value="Skicka">
+
+            </div>
+        </div>
+
+        <div id="footer">Copyright</div>
+    </div>
+
+</body>
+
+</html>
